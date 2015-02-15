@@ -1,0 +1,5 @@
+<fieldset><legend><b>Written by</b> Claudia Vermeulen <b>on</b> 13.04.2009 , 00:08<br>
+</legend><br>Dit is een test bericht van claudia.<p>
+
+</fieldset>
+

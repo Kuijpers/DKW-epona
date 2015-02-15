@@ -1,0 +1,219 @@
+/* algehele opzet*/
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+	width: 100%;
+	background-color:	#ffefd5;
+}
+div.container{
+	width:	90%;
+	margin:	10px 0 10px 5%;
+	border:	1px solid #f08080;
+	background-color:	white;
+}
+
+/* top gedeelte met menu*/
+
+div.top{
+	width: 100%;
+	height:	138px;
+}
+div.top_header{
+	width:	100%;
+	height:	100px;
+	background-image:	url(images/bg_header.gif);
+	background-repeat: 	 repeat-x;
+}
+div.top_pic{
+	width:	33%;
+	height:	100px;
+	float:	left;
+}
+
+img.top_center{
+	padding-left:	50px;
+}
+
+/*middengedeelte tekstdeel*/
+
+div.body{
+	width: 100%;
+	height:	auto;
+	float:	right;	
+	background-image:	url(images/bg_textfield.gif);
+	background-repeat: 	 repeat-x;
+	background-color:	white;
+
+}
+div.title{
+	width:	96%;
+	height:	auto;
+	margin-top:	10px;
+	margin-left:	3%;
+	float:	left;
+	text-align:	center;
+	color:	#333333;
+}
+
+div.textfield{
+	width:	96%;
+	margin-top:	5px;
+	margin-left:	3%;
+	float:	left;
+	padding-bottom:	30px;
+	color:	#666666;
+}
+
+hr.underline{
+	width:	15%;
+	height:	2px;
+	background-color:	gray;
+}
+
+/*	linkerdeel van voorpagina*/
+
+div.left{
+	width:	35%;
+	float:	left;
+}
+
+div.pic{
+	width:	100%;
+	float:	left;
+}
+
+div.koran{
+	width:	100%;
+	padding-top:	20px;
+}
+
+/* 	rechterdeel van voorpagina*/
+
+div.right{
+	width:	60%;
+	margin-left:	10px;
+	float:	right;
+}
+	/*	landen selecteren	*/
+div.country{
+	width:	84%;
+	height:	100%;
+	padding-top:	20px;
+}
+div.countrytitle{
+	width:	100%;
+	float:	left;
+	padding-bottom:	20px;
+	font-family:	Georgia;
+	color:	#333333;
+}
+div.countryselect{
+	width:	100%;
+	height:	35px;
+	margin-left:	10%;
+	float:	left;
+}
+div.flag{
+	width:	25%;
+	margin-top:	5px;
+	position:	relative;
+	float:	left;
+}
+div.language{
+	width:	75%;
+	height:	35px;
+	padding-top:	5px;
+	position:	relative;
+	float:	right;
+	text-align:	left;
+	
+}
+
+a.language{
+	font-family:	arial;
+	color:	#333333;
+	text-decoration: none;
+
+}
+
+	/*	Update gedeelte	*/
+
+div.update{
+	width:	85%;
+	margin-top:	50px;
+	position:	relative;
+	float:	right;
+	margin-right:	20%;	
+}
+
+div.updatelist{
+	width:	100%;
+	margin-top:	2px;
+	position:	relative;
+	float:	right;
+
+}
+
+div.date{
+	width:	20%;
+	float:	left;
+	text-align:	left;
+	margin-bottom:	5px;
+	padding-left:	10px;
+}
+
+div.done{
+	width:	75%;
+	float:	right;
+	margin-bottom:	5px;
+}
+
+/* balken boven en onder*/
+
+div.line_up{
+	width: 100%;
+	height:	38px;
+	float:	left;
+	text-align:	center;
+	padding-top:	6px;
+	color:	#ffffff;
+	background-image:	url(images/tmbg.gif);
+	background-repeat: 	 repeat-x;
+}
+
+/* ondergedeelte */
+
+div.bottom{
+	width:	100%;
+	height:	30px;
+	background-repeat: 	 repeat-x;
+	background-color:	white;
+	color:	white;
+}
+
+legend{
+	background-color: #ffefd5;
+	color: #f08080;
+	font-weight: bold;
+	padding: 4px 6px 4px 6px;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	font-size: 0.6em;
+	border:	1px solid #d3d3d3;
+}
+img.frontpage{
+	border:	3px solid #f08080;
+
+}
+div.teller{
+	width:	100%;
+	text-align:	center;
+	color: #f08080;
+	padding: 4px 6px 4px 6px;
+	margin: 0 0 5px 0;
+	font-size: 1.0em;
+}
+

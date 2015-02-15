@@ -1,0 +1,6 @@
+hex kleuren
+
+#FFEFD5
+#F08080
+#A9A9A9
+#D3D3D3

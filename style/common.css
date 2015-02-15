@@ -1,0 +1,264 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+	width: 100%;
+	background-color:	#ffefd5;
+}
+div.container{
+	width:	90%;
+	margin:	10px 0 10px 5%;
+	border:	1px solid #f08080;
+	background-color:	white;
+}
+div.top{
+	width: 100%;
+	height:	138px;
+}
+div.top_header{
+	width:	100%;
+	height:	100px;
+	background-image:	url(../images/bg_header.gif);
+	background-repeat: 	 repeat-x;
+}
+div.top_pic{
+	width:	33%;
+	height:	100px;
+	float:	left;
+}
+div.top_menu{
+	width:	100%;
+	height:	38px;
+	text-align:	center;
+}
+
+div.body{
+	width: 100%;
+	height:	auto;
+	float:	right;	
+	background-image:	url(../images/bg_textfield.gif);
+	background-repeat: 	 repeat-x;
+	background-color:	white;
+
+}
+div.title{
+	width:	96%;
+	height:	auto;
+	margin-top:	10px;
+	margin-left:	3%;
+	float:	left;
+	text-align:	left;
+	color:	#333333;
+}
+
+div.textfield{
+	width:	96%;
+	margin-top:	5px;
+	margin-left:	3%;
+	float:	left;
+	padding-bottom:	30px;
+	color:	#666666;
+}
+div.footer{
+	width: 100%;
+	height:	38px;
+	float:	left;
+	text-align:	center;
+	padding-top:	6px;
+	color:	#ffffff;
+	background-image:	url(../images/tmbg.gif);
+	background-repeat: 	 repeat-x;
+}
+
+div.bottom{
+	width:	100%;
+	height:	30px;
+	background-repeat: 	 repeat-x;
+	background-color:	white;
+	color:	white;
+}
+div.contact{
+	width:	33%;
+	margin-top:	5px;
+	margin-left:	3%;
+	float:	left;
+	position:	relative;
+	padding-bottom:	30px;
+	
+}
+div.contactform{
+	width:	48%;
+	margin-top:	5px;
+	margin-left:	3%;
+	padding-bottom:	30px;
+	color:	#666666;
+	float:	right;
+	padding-right:	5%;
+}
+.name{
+	width:	20%;
+	float: left;
+	margin-top:	5px;
+}
+.fill_in{
+	width:	72%;
+	margin-top:	5px;
+}
+
+
+div.info{
+	width:	45%;
+	margin-top:	5px;
+	color:	#666666;
+	float:	left;
+}
+
+hr.underline{
+	width:	15%;
+	height:	2px;
+	background-color:	gray;
+}
+img.top_center{
+	padding-left:	50px;
+}
+.button{
+	background-image:	url(../images/button.gif);
+	background-repeat: 	 repeat-x;
+	height:	28px;
+	border: 1px solid #333333;
+	font-family:	Georgia;
+	color:	#666666;
+	text-align:	center;
+	margin-top:	10px;
+}
+
+.button:hover{
+	background-image:	url(../images/button_hover.gif);
+	background-repeat: 	 repeat-x;
+	height:	28px;
+	border: 1px solid #666666;
+	font-family:	Georgia;
+	color:	#333333;
+	text-align:	center;
+	margin-top:	10px;
+}
+
+.input{
+	border: 1px solid #f08080;
+	font-family:	Verdana;
+	color:	#f08080;
+}
+
+
+div.index_body{
+	width: 100%;
+	height:	auto;
+	float:	right;	
+	background-image:	url(images/bg_textfield.gif);
+	background-repeat: 	 repeat-x;
+	background-color:	white;
+
+}
+
+div.news{
+	width:	75%;
+
+}
+
+legend{
+	background-color: #ffefd5;
+	color: #f08080;
+	font-weight: bold;
+	padding: 4px 6px 4px 6px;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	font-size: 0.8em;
+	border:	1px solid #d3d3d3;
+}
+fieldset{
+	margin-left:	25px;
+	margin-top:		10px;
+	margin-right:	15px;
+	padding-left:	15px;
+	padding-right:	15px;
+	padding-bottom:	15px;
+}
+div.links{
+	width:	25%;
+	float:	left;
+	position:	relative;
+	padding-left:	10px;
+	margin-left:	1%;
+	margin-top:	2%;
+}
+div.linkssub{
+	width:	100%;
+	border:	1px solid #d3d3d3;
+	display:	block;
+	margin-top:	2px;
+}
+div.linkssub :hover{
+	width:	100%;
+	border:	1px solid #a9a9a9;
+	display:	block;
+	margin-top:	2px;
+	background-color:	#f08080;
+	color:	#ffffff;
+	font-size:	0.8em;
+}
+a.linkssub{
+	font-family:	arial;
+	font-size:	0.8em;
+	color:	#333333;
+	text-decoration: none;
+	display:	block;
+}
+a.linkssub :hover{
+	font-family:	arial;
+	font-size:	0.8em;
+	color:	#ffffff;
+	text-decoration: none;
+	display:	block;
+}
+
+div.guestbook{
+	width:	90%;
+	height:	300px;
+	overflow: auto;
+	margin-top:	15px;
+}
+
+.go_away{
+display: none;
+}
+
+img.right{
+	border:	2px solid #f08080;
+	float:	right;
+	margin-left:	15px;
+	margin-top:		10px;
+	margin-bottom:	10px;
+}
+
+img.left{
+	border:	2px solid #f08080;
+	float:	left;
+	margin-right:	15px;
+	margin-top:		10px;
+	margin-bottom:	10px;
+}
+pre{
+	font-family:	arial;
+	font-weight: bold;
+	color:	#333333;
+	background-image:	url(../images/bg_textfield.gif);
+	background-repeat: 	 repeat-x;
+	background-color:	white;
+}
+div.pedigree{
+	width:	750px;
+	height:	450px;
+	background-color:	#ffffff;
+}

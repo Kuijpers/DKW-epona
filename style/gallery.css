@@ -1,0 +1,28 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+	width: 100%;
+}
+
+div.frame{
+	width:	90%;
+	margin-left:	5%;
+	margin-top:	10px;
+	height:	auto;
+}
+div.dsgallery{
+	width:	auto;
+	height:	auto;
+	border:	3px solid #d3d3d3;
+	margin-top:	5px;
+	margin-left:	5px;
+	float:	left;
+	padding:	2px	2px	2px	2px;
+	background-color:	#ffcccc;
+	background-image:	url(../images/loading_gallery.gif);
+	background-repeat: 	 norepeat;
+
+}
